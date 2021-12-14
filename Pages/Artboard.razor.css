@@ -1,0 +1,49 @@
+.artboard-container {
+    align-items: stretch;
+    align-content: stretch;
+    height: 100%;
+}
+.group {
+    align-items: flex-end;
+    height: 17.7%;
+    padding: 0 0 0 104px;
+    min-height: 88px;
+    position: relative;
+    width: 100%;
+    min-width: 675px;
+}
+.artboard {
+    padding: 81px 0 0;
+    min-height: 578px;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    min-width: 675px;
+}
+.avatar {
+    position: relative;
+}
+.avatar::part(base) {
+    color: hsla(var(--igc-gray-800));
+    background-color: hsla(var(--igc-gray-400));
+}
+.button {
+    position: relative;
+    margin: 0 0 7px 90px;
+    width: max-content;
+    height: max-content;
+    min-width: min-content;
+}
+.badgeiconround {
+    position: relative;
+    margin: 54px 0 0 148px;
+    width: max-content;
+    height: max-content;
+}
+.row {
+    display: flex;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
